@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: ; */
+
+}
+
+body{
+    background-color: #ffff;
+}
+
+.navbar{
+    background-color: #0048ffcf;
+    display: flex;
+    justify-content:center;
+    padding: 8px;
+    color: aliceblue;
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.navbar .logo{
+    width: 80px;
+    margin-right:-25px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 20px 0 20px;
+    font-weight: bold;
+}
+.navbar ul li input{
+    padding: 9px;
+    width: 550px;
+}
+.navbar ul li button{
+    padding: 10px;
+    width: 170px;
+    margin-left: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.home-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 10px -15px rgba(17, 17, 17, 0.266);    
+    padding-bottom: 10px;
+
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.home-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-1 img{
+    margin:10px 15px;
+    height: 90px;
+    
+
+}
+
+
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+.carousel {
+    margin-bottom: 30px;
+}
+.carousel img{
+  width: 100%;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+
+}
+.home-2 img{
+    width: 98vw;
+}
+.home-3{
+    display: flex;
+
+}
+.home-3 img{
+   width: 32.5%;
+   margin: 5px;
+}
+footer{
+    background-color: rgb(1, 2, 18);
+}
+
+.foot{
+   
+    color: #ffff;
+    margin-top: 20px;
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.foot li{
+    display: grid;
+}
+.foot span{
+    font-weight: bold;
+    
+}
+.foot-1{
+    display: flex;
+    justify-content:center;
+    margin: -1px;
+    color: white;
+}
+.foot-1 div{
+    margin: 20px 35px;
+}
